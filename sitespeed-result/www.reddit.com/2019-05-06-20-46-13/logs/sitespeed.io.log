@@ -1,3 +1,0 @@
-[2019-05-06 20:46:13] INFO: [sitespeedio] Versions OS: linux 4.14.113-1-MANJARO nodejs: v10.13.0 sitespeed.io: 8.15.1 browsertime: 4.9.1 coach: 3.4.0
-[2019-05-06 20:46:13] INFO: [browsertime] Running tests using Chrome - 3 iteration(s)
-[2019-05-06 20:46:16] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 1

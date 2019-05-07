@@ -1,6 +1,0 @@
-[2019-05-06 20:47:59] INFO: [sitespeedio] Versions OS: linux 4.14.113-1-MANJARO nodejs: v10.13.0 sitespeed.io: 8.15.1 browsertime: 4.9.1 coach: 3.4.0
-[2019-05-06 20:48:00] INFO: [browsertime] Running tests using Chrome - 3 iteration(s)
-[2019-05-06 20:48:01] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 1
-[2019-05-06 20:48:43] INFO: [browsertime] https://www.reddit.com BackEndTime: 3997 DomInteractiveTime: 6245 DomContentLoadedTime: 7564 FirstPaint: 4400 PageLoadTime: 12996
-[2019-05-06 20:48:43] INFO: [browsertime] VisualMetrics FirstVisualChange: 4400 SpeedIndex: 14205 PerceptualSpeedIndex: 11990 LastVisualChange: 14400
-[2019-05-06 20:48:44] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 2
