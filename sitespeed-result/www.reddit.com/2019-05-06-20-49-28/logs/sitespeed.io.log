@@ -1,0 +1,29 @@
+[2019-05-06 20:49:28] INFO: [sitespeedio] Versions OS: linux 4.14.113-1-MANJARO nodejs: v10.13.0 sitespeed.io: 8.15.1 browsertime: 4.9.1 coach: 3.4.0
+[2019-05-06 20:49:28] INFO: [browsertime] Running tests using Chrome - 3 iteration(s)
+[2019-05-06 20:49:30] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 1
+[2019-05-06 20:50:28] INFO: [browsertime] https://www.reddit.com BackEndTime: 1533 DomInteractiveTime: 5579 DomContentLoadedTime: 6882 FirstPaint: 1804 PageLoadTime: 22762
+[2019-05-06 20:50:28] INFO: [browsertime] VisualMetrics FirstVisualChange: 1800 SpeedIndex: 22927 PerceptualSpeedIndex: 18501 LastVisualChange: 23767
+[2019-05-06 20:50:29] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 2
+[2019-05-06 20:51:13] INFO: [browsertime] https://www.reddit.com BackEndTime: 1739 DomInteractiveTime: 9610 DomContentLoadedTime: 10900 FirstPaint: 2579 PageLoadTime: 14969
+[2019-05-06 20:51:13] INFO: [browsertime] VisualMetrics FirstVisualChange: 2567 SpeedIndex: 15470 PerceptualSpeedIndex: 12685 LastVisualChange: 15734
+[2019-05-06 20:51:15] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 3
+[2019-05-06 20:52:03] INFO: [browsertime] https://www.reddit.com BackEndTime: 1778 DomInteractiveTime: 2967 DomContentLoadedTime: 4400 FirstPaint: 2089 PageLoadTime: 17236
+[2019-05-06 20:52:03] INFO: [browsertime] VisualMetrics FirstVisualChange: 2100 SpeedIndex: 20558 PerceptualSpeedIndex: 16636 LastVisualChange: 20934
+[2019-05-06 20:52:03] INFO: [browsertime] https://www.reddit.com 115 requests, 2945.79 kb, backEndTime: 1.68s (±62.06ms), firstPaint: 2.16s (±184.79ms), firstVisualChange: 2.16s (±182.21ms), DOMContentLoaded: 7.39s (±1.55s), Load: 18.32s (±1.89s), speedIndex: 19652 (±1796.16), visualComplete85: 20.14s (±1.92s), lastVisualChange: 20.14s (±1.92s), rumSpeedIndex: 3005 (±253.79) (3 runs)
+[2019-05-06 20:52:03] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:03] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:03] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:11] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:14] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:14] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:18] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:18] ERROR: [sitespeedio.queuehandler] Error: getaddrinfo ENOTFOUND sitespeedio sitespeedio:2003
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[2019-05-06 20:52:21] INFO: [sitespeedio.plugin.html] HTML stored in /sitespeed.io/sitespeed-result/www.reddit.com/2019-05-06-20-49-28

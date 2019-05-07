@@ -1,0 +1,23 @@
+{
+  "CONTAINER_IP": "172.33.0.3",
+  "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36",
+  "TRIALS_PER_URL": "3",
+  "pages": [
+    {
+      "url": "https://www.reddit.com",
+      "auth_url": "https://www.reddit.com/login",
+      "users": [{"user": "jasmine_buddha", "password": "@uM10WHs%oJ8HRuDSUb"}],
+      "series_key": "sitespeed_io.reddit1"
+    },
+    {
+      "url": "https://www.reddit.com",
+      "auth_url": "https://www.reddit.com/login",
+      "users": [{"user": "sinless_fragility", "password": "6PWo#jFEU4vLuOC&"}],
+      "series_key": "sitespeed_io.reddit2"
+    }
+  ],
+  "browsers": [
+    {"name": "chrome", "user-agent": "Chrome/72.0.3626.121"},
+    {"name": "firefox", "user-agent": "Mozilla/5.0"}
+  ]
+}

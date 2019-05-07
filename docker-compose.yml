@@ -1,0 +1,50 @@
+version: '3'
+services:
+    sitespeed.io:
+      image: sitespeedio/sitespeed.io
+      container_name: sitespeedio
+      command: -V
+      shm_size: 1g
+      volumes:
+            - ./sitespeed-result/:/sitespeed.io/sitespeed-result
+    grafana:
+      image: grafana/grafana:5.4.0
+      depends_on:
+        - graphite
+      links:
+        - graphite
+      ports:
+        - "3000:3000"
+      environment:
+        - GF_SECURITY_ADMIN_PASSWORD=password
+        - GF_SECURITY_ADMIN_USER=admin
+        - GF_AUTH_ANONYMOUS_ENABLED=true
+        - GF_USERS_ALLOW_SIGN_UP=false
+        - GF_USERS_ALLOW_ORG_CREATE=false
+      volumes:
+        - grafana:/var/lib/grafana
+      restart: always
+    graphite:
+      image: sitespeedio/graphite:1.0.2-2-b
+      ports:
+        - "2003:2003"
+        - "8080:80"
+      restart: always
+      volumes:
+        - whisper:/opt/graphite/storage/whisper
+    grafana-setup:
+      image: sitespeedio/grafana-bootstrap:7.5
+      links:
+        - grafana
+      environment:
+        - GF_PASSWORD=password
+        - GF_USER=admin
+volumes:
+    grafana:
+    whisper:
+networks:
+    default:
+      ipam:
+        driver: default
+        config:
+        - subnet: 172.33.0.0/16

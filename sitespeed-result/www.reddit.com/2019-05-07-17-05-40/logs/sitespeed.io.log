@@ -1,0 +1,13 @@
+[2019-05-07 17:05:40] INFO: [sitespeedio] Versions OS: linux 4.14.113-1-MANJARO nodejs: v10.13.0 sitespeed.io: 8.15.1 browsertime: 4.9.1 coach: 3.4.0
+[2019-05-07 17:05:40] INFO: [browsertime] Running tests using Chrome - 3 iteration(s)
+[2019-05-07 17:05:41] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 1
+[2019-05-07 17:06:21] INFO: [browsertime] https://www.reddit.com BackEndTime: 1589 DomInteractiveTime: 3067 DomContentLoadedTime: 3822 FirstPaint: 1667 PageLoadTime: 15769
+[2019-05-07 17:06:21] INFO: [browsertime] VisualMetrics FirstVisualChange: 1700 SpeedIndex: 16065 PerceptualSpeedIndex: 12762 LastVisualChange: 16467
+[2019-05-07 17:06:22] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 2
+[2019-05-07 17:06:51] INFO: [browsertime] https://www.reddit.com BackEndTime: 1302 DomInteractiveTime: 4956 DomContentLoadedTime: 5690 FirstPaint: 1450 PageLoadTime: 8363
+[2019-05-07 17:06:51] INFO: [browsertime] VisualMetrics FirstVisualChange: 1433 SpeedIndex: 8689 PerceptualSpeedIndex: 7003 LastVisualChange: 8900
+[2019-05-07 17:06:52] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 3
+[2019-05-07 17:07:18] INFO: [browsertime] https://www.reddit.com BackEndTime: 1173 DomInteractiveTime: 3401 DomContentLoadedTime: 4224 FirstPaint: 1319 PageLoadTime: 5819
+[2019-05-07 17:07:18] INFO: [browsertime] VisualMetrics FirstVisualChange: 1334 SpeedIndex: 6213 PerceptualSpeedIndex: 5124 LastVisualChange: 6300
+[2019-05-07 17:07:18] INFO: [browsertime] https://www.reddit.com 122 requests, 2991.06 kb, backEndTime: 1.35s (±100.38ms), firstPaint: 1.48s (±82.86ms), firstVisualChange: 1.49s (±89.25ms), DOMContentLoaded: 4.58s (±463.49ms), Load: 9.98s (±2.44s), speedIndex: 10322 (±2415.98), visualComplete85: 10.48s (±2.46s), lastVisualChange: 10.56s (±2.49s), rumSpeedIndex: 2638 (±384.53) (3 runs)
+[2019-05-07 17:07:19] INFO: [sitespeedio.plugin.html] HTML stored in /sitespeed.io/sitespeed-result/www.reddit.com/2019-05-07-17-05-40

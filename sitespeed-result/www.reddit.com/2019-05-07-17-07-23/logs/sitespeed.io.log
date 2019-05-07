@@ -1,0 +1,49 @@
+[2019-05-07 17:07:23] INFO: [sitespeedio] Versions OS: linux 4.14.113-1-MANJARO nodejs: v10.13.0 sitespeed.io: 8.15.1 browsertime: 4.9.1 coach: 3.4.0
+[2019-05-07 17:07:23] INFO: [browsertime] Running tests using Firefox - 3 iteration(s)
+[2019-05-07 17:07:26] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 1
+[2019-05-07 17:08:01] INFO: [browsertime.firefox] Waiting on har-export-trigger to collect the HAR
+[2019-05-07 17:08:01] ERROR: [browsertime.firefox] Could not get the HAR from Firefox JavascriptError: ReferenceError: HAR is not defined
+    at Object.throwDecodedError (/usr/src/app/node_modules/selenium-webdriver/lib/error.js:514:15)
+    at parseHttpResponse (/usr/src/app/node_modules/selenium-webdriver/lib/http.js:519:13)
+    at doSend.then.response (/usr/src/app/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: WebDriver.executeScript()
+    at Driver.schedule (/usr/src/app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at Driver.executeAsyncScript (/usr/src/app/node_modules/selenium-webdriver/lib/webdriver.js:891:17)
+    at SeleniumRunner.runAsyncScript (/usr/src/app/node_modules/browsertime/lib/core/seleniumRunner.js:302:26)
+    at FirefoxDelegate.onCollect (/usr/src/app/node_modules/browsertime/lib/firefox/webdriver/firefoxDelegate.js:74:38)
+    at Measure.collect (/usr/src/app/node_modules/browsertime/lib/core/engine/command/measure.js:277:31)
+[2019-05-07 17:08:07] INFO: [browsertime] https://www.reddit.com BackEndTime: 1451 DomInteractiveTime: 2012 DomContentLoadedTime: 5270 FirstPaint: 1585 PageLoadTime: 19813
+[2019-05-07 17:08:07] INFO: [browsertime] VisualMetrics FirstVisualChange: 1633 SpeedIndex: 3969 PerceptualSpeedIndex: 3401 LastVisualChange: 25200
+[2019-05-07 17:08:09] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 2
+[2019-05-07 17:08:33] INFO: [browsertime.firefox] Waiting on har-export-trigger to collect the HAR
+[2019-05-07 17:08:33] ERROR: [browsertime.firefox] Could not get the HAR from Firefox JavascriptError: ReferenceError: HAR is not defined
+    at Object.throwDecodedError (/usr/src/app/node_modules/selenium-webdriver/lib/error.js:514:15)
+    at parseHttpResponse (/usr/src/app/node_modules/selenium-webdriver/lib/http.js:519:13)
+    at doSend.then.response (/usr/src/app/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: WebDriver.executeScript()
+    at Driver.schedule (/usr/src/app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at Driver.executeAsyncScript (/usr/src/app/node_modules/selenium-webdriver/lib/webdriver.js:891:17)
+    at SeleniumRunner.runAsyncScript (/usr/src/app/node_modules/browsertime/lib/core/seleniumRunner.js:302:26)
+    at FirefoxDelegate.onCollect (/usr/src/app/node_modules/browsertime/lib/firefox/webdriver/firefoxDelegate.js:74:38)
+    at Measure.collect (/usr/src/app/node_modules/browsertime/lib/core/engine/command/measure.js:277:31)
+[2019-05-07 17:08:39] INFO: [browsertime] https://www.reddit.com BackEndTime: 1107 DomInteractiveTime: 1320 DomContentLoadedTime: 4561 FirstPaint: 1216 PageLoadTime: 10317
+[2019-05-07 17:08:39] INFO: [browsertime] VisualMetrics FirstVisualChange: 1266 SpeedIndex: 2293 PerceptualSpeedIndex: 2494 LastVisualChange: 11433
+[2019-05-07 17:08:41] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 3
+[2019-05-07 17:09:00] INFO: [browsertime.firefox] Waiting on har-export-trigger to collect the HAR
+[2019-05-07 17:09:00] ERROR: [browsertime.firefox] Could not get the HAR from Firefox JavascriptError: ReferenceError: HAR is not defined
+    at Object.throwDecodedError (/usr/src/app/node_modules/selenium-webdriver/lib/error.js:514:15)
+    at parseHttpResponse (/usr/src/app/node_modules/selenium-webdriver/lib/http.js:519:13)
+    at doSend.then.response (/usr/src/app/node_modules/selenium-webdriver/lib/http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: WebDriver.executeScript()
+    at Driver.schedule (/usr/src/app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)
+    at Driver.executeAsyncScript (/usr/src/app/node_modules/selenium-webdriver/lib/webdriver.js:891:17)
+    at SeleniumRunner.runAsyncScript (/usr/src/app/node_modules/browsertime/lib/core/seleniumRunner.js:302:26)
+    at FirefoxDelegate.onCollect (/usr/src/app/node_modules/browsertime/lib/firefox/webdriver/firefoxDelegate.js:74:38)
+    at Measure.collect (/usr/src/app/node_modules/browsertime/lib/core/engine/command/measure.js:277:31)
+[2019-05-07 17:09:03] INFO: [browsertime] https://www.reddit.com BackEndTime: 952 DomInteractiveTime: 1209 DomContentLoadedTime: 3875 FirstPaint: 1066 PageLoadTime: 5291
+[2019-05-07 17:09:03] INFO: [browsertime] VisualMetrics FirstVisualChange: 1100 SpeedIndex: 1861 PerceptualSpeedIndex: 1959 LastVisualChange: 5766
+[2019-05-07 17:09:03] INFO: [browsertime] https://www.reddit.com 0, backEndTime: 1.17s (±120.39ms), firstPaint: 1.29s (±125.91ms), firstVisualChange: 1.33s (±128.57ms), DOMContentLoaded: 4.57s (±328.82ms), Load: 11.81s (±3.48s), speedIndex: 2708 (±524.91), visualComplete85: 4.18s (±204.99ms), lastVisualChange: 14.13s (±4.71s), rumSpeedIndex: 1886 (±365.97) (3 runs)
+[2019-05-07 17:09:05] INFO: [sitespeedio.plugin.html] HTML stored in /sitespeed.io/sitespeed-result/www.reddit.com/2019-05-07-17-07-23

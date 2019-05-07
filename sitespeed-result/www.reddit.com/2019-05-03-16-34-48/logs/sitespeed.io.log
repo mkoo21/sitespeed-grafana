@@ -1,0 +1,9 @@
+[2019-05-03 16:34:48] INFO: [sitespeedio] Versions OS: linux 4.14.111-1-MANJARO nodejs: v10.13.0 sitespeed.io: 8.15.1 browsertime: 4.9.1 coach: 3.4.0
+[2019-05-03 16:34:49] INFO: [browsertime] Running tests using Firefox - 3 iteration(s)
+[2019-05-03 16:34:52] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 1
+[2019-05-03 16:34:58] ERROR: [browsertime] Failed to wait WebDriverError: Failed to decode response from marionette
+[2019-05-03 16:34:58] ERROR: [browsertime] Could not load URLUrlLoadError: Failed to wait 
+[2019-05-03 16:34:58] ERROR: [browsertime] UrlLoadError: Failed to load https://www.reddit.com
+    at SeleniumRunner.loadAndWait (/usr/src/app/node_modules/browsertime/lib/core/seleniumRunner.js:223:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-05-03 16:35:01] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 2

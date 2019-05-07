@@ -1,0 +1,13 @@
+[2019-05-07 17:03:51] INFO: [sitespeedio] Versions OS: linux 4.14.113-1-MANJARO nodejs: v10.13.0 sitespeed.io: 8.15.1 browsertime: 4.9.1 coach: 3.4.0
+[2019-05-07 17:03:51] INFO: [browsertime] Running tests using Chrome - 3 iteration(s)
+[2019-05-07 17:03:52] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 1
+[2019-05-07 17:04:25] INFO: [browsertime] https://www.reddit.com BackEndTime: 834 DomInteractiveTime: 4143 DomContentLoadedTime: 4924 FirstPaint: 995 PageLoadTime: 9016
+[2019-05-07 17:04:25] INFO: [browsertime] VisualMetrics FirstVisualChange: 1000 SpeedIndex: 8618 PerceptualSpeedIndex: 6819 LastVisualChange: 9500
+[2019-05-07 17:04:25] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 2
+[2019-05-07 17:05:04] INFO: [browsertime] https://www.reddit.com BackEndTime: 1129 DomInteractiveTime: 3148 DomContentLoadedTime: 3917 FirstPaint: 1250 PageLoadTime: 14133
+[2019-05-07 17:05:04] INFO: [browsertime] VisualMetrics FirstVisualChange: 1300 SpeedIndex: 13909 PerceptualSpeedIndex: 11453 LastVisualChange: 14567
+[2019-05-07 17:05:05] INFO: [browsertime.command.measure] Testing url https://www.reddit.com iteration 3
+[2019-05-07 17:05:35] INFO: [browsertime] https://www.reddit.com BackEndTime: 1531 DomInteractiveTime: 3585 DomContentLoadedTime: 4339 FirstPaint: 1683 PageLoadTime: 8625
+[2019-05-07 17:05:35] INFO: [browsertime] VisualMetrics FirstVisualChange: 1700 SpeedIndex: 8864 PerceptualSpeedIndex: 7387 LastVisualChange: 9267
+[2019-05-07 17:05:35] INFO: [browsertime] https://www.reddit.com 129 requests, 3076.02 kb, backEndTime: 1.17s (±164.93ms), firstPaint: 1.31s (±163.96ms), firstVisualChange: 1.33s (±165.55ms), DOMContentLoaded: 4.39s (±238.39ms), Load: 10.59s (±1.45s), speedIndex: 10464 (±1407.75), visualComplete85: 11.01s (±1.43s), lastVisualChange: 11.11s (±1.41s), rumSpeedIndex: 2118 (±351.45) (3 runs)
+[2019-05-07 17:05:37] INFO: [sitespeedio.plugin.html] HTML stored in /sitespeed.io/sitespeed-result/www.reddit.com/2019-05-07-17-03-51
