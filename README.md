@@ -87,3 +87,6 @@ If you get timeout errors, make sure you followed the configuration instructions
 ### Networking
 
 It's possible that the perf_default network used for this will conflict with something. You can change the ip in `docker-compose.yml` under networks > default > ipam > config > subnet.
+
+### Best practice
+You can use sitespeed with selenium, but due to selenium's general flakiness/weirdness I would recommend putting together a strategy for component/page/storyboard-level testing if you want more fine-grained control/more targetted measurements than page loads. Using sitespeed together with selenium kind of reduces the value of both tools.
