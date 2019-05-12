@@ -1,3 +1,6 @@
+## A few runs under no particular system with no particular reasoning
+![](screen.png)
+
 ## Setup 
 
 If you don't have docker and docker-compose you will need to install them. DO NOT just install the apt versions particularly for docker-compose as they are very outdated. You will need to at least support the docker compose file version 3 spec. 
@@ -89,4 +92,4 @@ If you get timeout errors, make sure you followed the configuration instructions
 It's possible that the perf_default network used for this will conflict with something. You can change the ip in `docker-compose.yml` under networks > default > ipam > config > subnet.
 
 ### Best practice
-You can use sitespeed with selenium, but due to selenium's general flakiness/weirdness I would recommend putting together a strategy for component/page/storyboard-level testing if you want more fine-grained control/more targetted measurements than page loads. Using sitespeed together with selenium kind of reduces the value of both tools.
+You can use sitespeed with selenium, but due to selenium's general flakiness/weirdness I would recommend putting together a strategy for component/page/storyboard-level testing if you want more fine-grained control/more targetted measurements than page loads. As you can see from the screenshot, measuring website load/response/interactivity timing is already a very noisy affair, and using sitespeed together with an even noisier/weirder tool like selenium reduces the value of both tools.
