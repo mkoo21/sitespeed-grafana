@@ -5,7 +5,7 @@
 
 If you don't have docker and docker-compose you will need to install them. DO NOT just install the apt versions particularly for docker-compose as they are very outdated. You will need to at least support the docker compose file version 3 spec. 
 
-Ya the installation instructions are written for Debian/Ubuntu. If you run something else I'm going to assume you can figure out how to install stuff yourself (general process is the same you just won't use apt)
+Ya the installation instructions are written for Debian/Ubuntu. If you run something else I'm going to assume you know how to install stuff (general process is the same you just won't use apt)
 
 ### Docker
 
